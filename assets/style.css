@@ -54,11 +54,7 @@ ul {
     }
 }
 
-@media only screen and (max-width : 1600px) {
-    ul {
-        left: 70%;
-    }
-}
+
 
 ul li {
     list-style: none;
