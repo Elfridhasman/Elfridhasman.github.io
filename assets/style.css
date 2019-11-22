@@ -11,10 +11,6 @@ h1 {
     margin: 0;
     font-weight: bold;    
 
-    
-    
-    
-
 }
 
 article {
@@ -57,7 +53,7 @@ ul {
 
 @media only screen and (max-width : 780px) {
     ul {
-        left: 50%;
+        left: 30%;
     }
 }
 
