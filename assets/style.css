@@ -61,13 +61,13 @@ ul li {
 
 ul li a {
     position: relative;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     display: block;
     text-align: center;
     margin: 0 10px;
     border-radius: 50%;
-    padding: 6px;
+    padding: 4px;
     box-sizing: border-box;
     text-decoration: none;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
@@ -86,16 +86,11 @@ ul li a .fa {
     background: linear-gradient(0deg, #fff, #ddd);
     border-radius: 50%;
     line-height: calc(60px - 12px);
-    font-size: 24px;
+    font-size: 15px;
     color: #262626;
     transition: .5s;
 }
 
-@media only screen and (max-width : 780px) {
-    ul {
-        font-size: 15px;
-    }
-}
 
 ul li:nth-child(1) a:hover .fa {
     color: #3b5998;
